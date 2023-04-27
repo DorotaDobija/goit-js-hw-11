@@ -1,2 +1,55 @@
 @import './common';
-@import './example';
+
+.search-form {
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+input {
+  outline: 0;
+}
+.gallery {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-basis: auto;
+  gap: 30px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid #eeeeee;
+  border-left: 2px solid #eeeeee;
+  border-right: 2px solid #eeeeee;
+  font-size: 10px;
+}
+.photo-card__img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+.info-item {
+  text-align: center;
+}
+
+.load-more {
+  display: block;
+  background-color: blue;
+  color: white;
+  padding: 8px;
+  font-size: 15px;
+  border: 1px solid rgb(90, 88, 88);
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 2px;
+}
+
+.hidden {
+  display: none;
+}
