@@ -11,7 +11,7 @@ const loadBtn = document.querySelector('#load-more');
 let pagE = 1;
 
 async function fechApi() {
-  return await axios.get('https://pixabay.com/api', {
+  return await axios.get('https://pixabay.com/api/', {
     params: {
       key: '35719926-181ab604ec6a85b118ffdb3f0',
       q: inputEl.value,
