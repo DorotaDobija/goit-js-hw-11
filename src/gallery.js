@@ -36,7 +36,7 @@ const createListItemToAdd = (arr) => {
     gallery.insertAdjacentHTML("afterbegin", image);
     lightbox.refresh();
 }
-const celarFunc = (form) => {
+const clearFunc = (form) => {
     form.reset();
 }
 
@@ -66,7 +66,7 @@ const sendRequest = (event) => {
             }
             
             createListItemToAdd(imagesArr);
-            celarFunc(formEl);
+            clearFunc(formEl);
         })
         .catch(error => console.log(error));
 }
